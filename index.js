@@ -1,3 +1,9 @@
+const fs = require('inquirer');
 const fs = require('fs');
-const fs = inquire('require');
-const createMarkdown =
+
+const generateHTML = (answers) =>
+`<!DOCTYPE html>
+<html lang="en>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie-edge">

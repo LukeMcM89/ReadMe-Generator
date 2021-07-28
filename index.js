@@ -1,7 +1,10 @@
 const fs = require('inquirer');
 const fs = require('fs');
+const util = require("util');
 
-const generateHTML = (answers) =>
+
+const generateMarkdown = require('./utils/generateMarkdown.js');
+
 `<!DOCTYPE html>
 <html lang="en>
 <head>

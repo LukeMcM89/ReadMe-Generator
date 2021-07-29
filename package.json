@@ -1,0 +1,19 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "This assignment features a quality ReadMe generator.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukeMcM89/ReadMe-Generator.git"
+  },
+  "author": "Luke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LukeMcM89/ReadMe-Generator/issues"
+  },
+  "homepage": "https://github.com/LukeMcM89/ReadMe-Generator#readme"
+}

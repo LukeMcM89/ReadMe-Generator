@@ -5,7 +5,7 @@ const generateMarkdown = require('./utils/generateMarkdown.js');
 
 const questions = [ {
     type: "input",
-    queston: "What would you like to name your project?"
+    question: "What would you like to name your project?"
     name: "name"
 },
     {

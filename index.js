@@ -19,16 +19,20 @@ const questions = [ {
         name: "install"
     },
     {
-        type: 'input',
+        type: "input",
         question: "When is the project run?",
         name: "usage"
     },
     {
-        type: "input",
+        type: "list",
         question: "Select and then Enter the Open-Source license variant for your project.",
         name: "license",
-        choices: [MIT, Apache 2.0, Mozilla Public License2.0,]
-
+        choices: ["MIT,' "Apache 2.0," 'Mozilla Public License2.0'],
+    },
+    {
+        type: "input",
+        question: "If this is a group project, what other individuals contributed?",
+        name: "contributions"
     }]
 
 

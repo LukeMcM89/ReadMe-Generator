@@ -1,3 +1,2 @@
-# ReadMe-Generator
+# undefined
 
-This assignment features a quality ReadMe generator.

@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/LukeMcM89/ReadMe-Generator/issues"
   },
-  "homepage": "https://github.com/LukeMcM89/ReadMe-Generator#readme"
+  "homepage": "https://github.com/LukeMcM89/ReadMe-Generator#readme",
+  "keywords": [],
+  "dependencies": {
+    "inquirer": "^8.1.2"
+  }
 }

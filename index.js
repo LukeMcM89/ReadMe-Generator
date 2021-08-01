@@ -1,7 +1,9 @@
-const fs = require("inquirer");
+const inquire = require("inquirer");
 const fs = require("fs");
 const util = require("util");
 const generateMarkdown = require("./utils/generateMarkdown.js");
+const writeFileAsync = util.promisify(fs.writeFile);
+
 
 const questions = [{
     type: "input",
@@ -28,7 +30,7 @@ const questions = [{
     question: "Select and then Enter the Open-Source license variant for your project.",
     name: "License",
     choices: ['MIT', 'Apache 2.0', 'GPL 3.0', 'Mozilla Public License2.0'],
-    },
+},
 {
     type: "input",
     question: "If this is a group project, what other individuals contributed?",
@@ -50,12 +52,17 @@ const questions = [{
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (error) => {
-    return error ? console.error(error): console.log("lets see if this works");
- });
-}   
+        return error ? console.error(error) : console.log("lets see if this works");
+    });
+}
 
 // TODO: Create a function to initialize app
-function init() { }
+function init() {
+    inquirer.prompt(questions).then((res) => {
+        writeToFile("", generateMarkdown(res));
+      });
+ }
+
 
 // Function call to initialize app
 init();

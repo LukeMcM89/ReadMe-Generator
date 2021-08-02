@@ -1,6 +1,20 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+  if (license == 'MIT') {
+    return ""
+  } else if (license == 'Apache 2.0') {
+    return ""
+  }
+  else if (license == 'GPL3.0') {
+    return ""
+  }
+  else if )license == 'Mozilla Public License 2.0') {
+    else if (license == 'N/A') {
+      return
+    }
+  }
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string

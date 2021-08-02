@@ -8,33 +8,33 @@ const generateMarkdown = require("./utils/generateMarkdown.js");
 const questions = () => {
     return inquire.prompt([{
         type: "input",
-        question: "What would you like to name your project?",
+        message: "What would you like to name your project?",
         name: "Name"
     },
     {
         type: "input",
-        question: "Enter a description of your project.",
+        message: "Enter a description of your project.",
         name: "Description"
     },
     {
         type: "input",
-        question: "What are the installation requirements?",
+        message: "What are the installation requirements?",
         name: "Install"
     },
     {
         type: "input",
-        question: "When is the project run?",
+        message: "When is the project run?",
         name: "Usage"
     },
     {
         type: "list",
-        question: "Select and then Enter the Open-Source license variant for your project.",
+        message: "Select and then Enter the Open-Source license variant for your project.",
         name: "License",
-        choices: ['MIT', 'Apache 2.0', 'GPL 3.0', 'Mozilla Public License2.0'],
+        choices: ['MIT', 'Apache 2.0', 'GPL 3.0', 'Mozilla Public License2.0', 'N/A'],
     },
     {
         type: "input",
-        question: "If this is a group project, what other individuals contributed?",
+        message: "If this is a group project, what other individuals contributed?",
         name: "Contributors"
     },
     {

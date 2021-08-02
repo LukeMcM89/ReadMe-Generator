@@ -47,7 +47,8 @@ const questions = () => {
         question: "Enter your GitHub username.",
         name: "GitHub"
     },
-    ]);
+    ])
+    .then((response))
 };
 
 // TODO: Create a function to write README file
@@ -60,8 +61,8 @@ const questions = () => {
 // TODO: Create a function to initialize app
 function init() {
     questions()
-        .then((res) => {
-            writeToFile("readme.md", generateMarkdown(res));
+        .then((response) => {
+            writeToFile("readme.md", generateMarkdown(response));
         });
 }
 

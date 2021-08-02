@@ -10,10 +10,10 @@ function renderLicenseBadge(license) {
     return ""
   } else if (license == 'Mozilla Public License 2.0') {
     return ""
-  }else if (license == 'N/A') {
-      return
-    }
+  } else if (license == 'N/A') {
+    return
   }
+}
 
 
 // TODO: Create a function that returns the license link
@@ -29,31 +29,23 @@ function generateMarkdown(data) {
   var renderLicenseBadge = ''
   var renderLicenseLink = ""
   var renderLicenseSection = ""
-  
+
   const readmetextstructure = `
-  
-  Description
-  Installation 
-  Usage
-  Contribution
-  Tests
-  Questions
+# Description
+${data.Description}
+# Installation 
+${data.Install}
+# Usage
+${data.Usage}
+# Contributors
+${data.Contributors}
+# Tests
+${data.Tests}
+# Questions
+${data.Questions}
+`
+  return readmetextstructure;
 
-  
-  
-  `
-
-  #
-
-
-
-
-  return `# ${data.title}
-
-  
-  
-
-`;
 }
 
 module.exports = generateMarkdown;

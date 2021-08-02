@@ -48,23 +48,23 @@ const questions = () => {
         name: "GitHub"
     },
     ])
-    .then((response))
+        .then((response) => {
+            writeToFile("userreadme.md", generateMarkdown(response));
+        }
+        );
 };
 
 // TODO: Create a function to write README file
-//function writeToFile(fileName, data) {
-    //fs.writeFile(fileName, data, (error) => {
-       // return error ? console.error(error) : console.log("lets see if this works");
-    //});
-//}
+function writeToFile(fileName, data) {
+fs.writeFile(fileName, data, (error) => {
+ return error ? console.error(error) : console.log("lets see if this works");
+});
+}
 
 // TODO: Create a function to initialize app
 function init() {
-    questions()
-        .then((response) => {
-            writeToFile("readme.md", generateMarkdown(response));
-        });
-}
+    questions ();
+};
 
 // Function call to initialize app
 init();

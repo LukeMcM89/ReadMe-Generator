@@ -31,6 +31,8 @@ function generateMarkdown(data) {
   var renderLicenseSection = ""
 
   const readmetextstructure = `
+# ${data.Name}
+# Table-of-Contents
 # Description
 ${data.Description}
 # Installation 
@@ -39,13 +41,16 @@ ${data.Install}
 ${data.Usage}
 # Contributors
 ${data.Contributors}
-# Tests
-${data.Tests}
+# Test
+${data.Test}
 # Questions
-${data.Questions}
+https://github.com/${data.GitHub}
+${data.Email}
 `
   return readmetextstructure;
 
 }
+
+
 
 module.exports = generateMarkdown;

@@ -39,6 +39,11 @@ const questions = () => {
     },
     {
         type: "input",
+        message: "Enter test instuctions.",
+        name: "Test"
+    },
+    {
+        type: "input",
         question: "Enter an email address.",
         name: "Email"
     },
@@ -57,7 +62,7 @@ const questions = () => {
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
 fs.writeFile(fileName, data, (error) => {
- return error ? console.error(error) : console.log("lets see if this works");
+ return error ? console.error(error) : console.log("ReadMe Succesfully Generated!");
 });
 }
 

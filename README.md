@@ -10,3 +10,6 @@ Link to video clip: https://drive.google.com/file/d/1aF6c15tCi3sIoF8SzkrXhpyESJp
 Link to GitHub repository: https://github.com/LukeMcM89/ReadMe-Generator
 
 <img width="1439" alt="readme" src="https://user-images.githubusercontent.com/80003989/127944074-07af5b2c-9db4-401a-9963-6354aba47605.png">
+
+<img width="1440" alt="Screen Shot 2021-08-02 at 9 40 57 PM" src="https://user-images.githubusercontent.com/80003989/127944426-eed1442d-220a-4370-aceb-5dda1ff0d336.png">
+

@@ -8,3 +8,5 @@ Upon answering prompts and selecting a license, the user has a ReadMe format bui
 Link to video clip: https://drive.google.com/file/d/1aF6c15tCi3sIoF8SzkrXhpyESJprCubH/view?usp=sharing
 
 Link to GitHub repository: https://github.com/LukeMcM89/ReadMe-Generator
+
+<img width="1439" alt="readme" src="https://user-images.githubusercontent.com/80003989/127944074-07af5b2c-9db4-401a-9963-6354aba47605.png">

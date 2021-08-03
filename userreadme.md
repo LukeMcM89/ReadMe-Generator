@@ -1,6 +1,6 @@
 
-# ReadMe Generator Trial
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Sushi Finder
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 # Table-of-Contents
 [Description](#Description)
 [Installation](#Installation)
@@ -9,15 +9,15 @@
 [Test](#Test)
 [Questions](#Questions)
 # Description
-This ReadMe Generator creates the template for a traditional ReadMe document. By answering prompts and entering information, the template is created via user input and specifications.
+This application helps the user find Sushi restaurants near them.
 # Installation 
-Certain necessary dependencies are required to execute. Enter the following command into the console terminalnpm i inquirer --save
+To install type: npm i inquirer --save into the console terminal
 # Usage
-The project runs when selecting the index.js file path, then entering node index.js into the console terminal. Answer questions as seen fit.
+Open an integrated terminal under the index.js file path and then type: node index.js
 # Contributors
-N/a
+Ryan, Elbin, Jerry, me
 # Test
-N/A
+No test instructions at this time.
 # Questions
-https://github.com/LukeMcM89
-lmcmurtrie89@gmail.com
+https://github.com/blah88
+blah@gmail.com
